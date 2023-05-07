@@ -14,7 +14,7 @@ function randomChoice() {
   return choices[randomIndex];
 }
 
-function displayChoices(playerOneChoice, playerTwoChoice, scoreOne, scoreTwo) {
+function displayChoices(playerOneChoice, playerTwoChoice) {
   playerOne.textContent = `You: ${scoreOne}`;
   playerTwo.textContent = `Player 2: ${scoreTwo}`;
   playerOneImg.setAttribute('src', `${playerOneChoice}.jpg`);
